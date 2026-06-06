@@ -1,0 +1,43 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.idea/
+
+# Frontend
+node_modules/
+dist/
+*.log
+.env
+.env.local
+
+# Docker
+*.env
+!docker/.env.example
+
+# IDE
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+appsettings.Production.json
+appsettings.Staging.json
+
+# Test results
+coverage/
+TestResults/
+playwright-report/
+
+# Backup
+backups/
+*.bak
+*.rdb
