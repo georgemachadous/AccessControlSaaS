@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { Building2, Plus, Search, Edit2, Trash2, Eye, Loader2 } from 'lucide-react'
+import { Building2, Plus, Search, Edit2, Trash2, Loader2 } from 'lucide-react'
 import { empresaApi } from '@/services/api'
 import type { Empresa, PaginatedResult } from '@/types/api'
 
 export default function EmpresasPage() {
   const [search, setSearch] = useState('')
   const [page, setPage] = useState(1)
-  const [showModal, setShowModal] = useState(false)
-  const [editingEmpresa, setEditingEmpresa] = useState<Empresa | null>(null)
+  const [_showModal, setShowModal] = useState(false)
+  const [_editingEmpresa, setEditingEmpresa] = useState<Empresa | null>(null)
 
   const { data, isLoading } = useQuery<PaginatedResult<Empresa>>({
     queryKey: ['empresas', page, search],

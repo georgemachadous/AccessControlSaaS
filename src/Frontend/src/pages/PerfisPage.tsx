@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { Shield, Plus, Search, Edit2, Trash2, Loader2, Key } from 'lucide-react'
+import { Shield, Plus, Search, Edit2, Trash2, Key } from 'lucide-react'
 import { perfilApi } from '@/services/api'
 import type { Perfil, PaginatedResult } from '@/types/api'
 
 export default function PerfisPage() {
   const [search, setSearch] = useState('')
-  const [page, setPage] = useState(1)
+  const [page] = useState(1)
 
   // Mock empresaId - in real app would come from context
   const empresaId = 'mock-empresa-id'

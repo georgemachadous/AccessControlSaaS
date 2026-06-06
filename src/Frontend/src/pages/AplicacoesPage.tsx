@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { AppWindow, Plus, Search, Edit2, Trash2, Loader2, ExternalLink, Globe } from 'lucide-react'
+import { AppWindow, Plus, Search, Edit2, Trash2, ExternalLink, Globe } from 'lucide-react'
 import { aplicacaoApi } from '@/services/api'
 import type { Aplicacao, PaginatedResult } from '@/types/api'
 
 export default function AplicacoesPage() {
   const [search, setSearch] = useState('')
-  const [page, setPage] = useState(1)
+  const [page] = useState(1)
 
   const { data, isLoading } = useQuery<PaginatedResult<Aplicacao>>({
     queryKey: ['aplicacoes', page, search],

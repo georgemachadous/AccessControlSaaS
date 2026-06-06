@@ -23,7 +23,7 @@ export default function LoginPage() {
       const { accessToken, refreshToken, usuario } = response.data
       setAuth(accessToken, refreshToken, usuario)
       navigate('/')
-    } catch (err: any) {
+    } catch (err: unknown) {
       setError(err.response?.data?.detail || 'Erro ao fazer login')
     } finally {
       setLoading(false)

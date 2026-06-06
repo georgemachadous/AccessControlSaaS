@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { FileText, Search, Filter, Loader2, Calendar, ArrowRightLeft, User, Globe } from 'lucide-react'
+import { Search, Filter, Loader2, Calendar, ArrowRightLeft, User, Globe } from 'lucide-react'
 import { auditoriaApi } from '@/services/api'
 import type { LogAuditoria, PaginatedResult } from '@/types/api'
 

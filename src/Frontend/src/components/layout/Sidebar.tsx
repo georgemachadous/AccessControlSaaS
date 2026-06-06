@@ -1,7 +1,7 @@
 import { NavLink, useLocation } from 'react-router-dom'
 import { useState } from 'react'
 import {
-  LayoutDashboard, Building2, Users, Shield, AppWindow, FileText, Bell, ChevronLeft, ChevronRight, LogOut
+  LayoutDashboard, Building2, Users, Shield, AppWindow, FileText, ChevronLeft, ChevronRight, LogOut
 } from 'lucide-react'
 import { useAuth } from '@/hooks/useAuth'
 
