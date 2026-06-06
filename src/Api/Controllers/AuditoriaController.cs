@@ -1,7 +1,13 @@
+
 using Microsoft.AspNetCore.Mvc;
+using AccessControl.Application.DTOs;
+
 using Microsoft.AspNetCore.Authorization;
+
 using MediatR;
+
 using AccessControl.Application.Queries;
+
 using AccessControl.Domain.Entities;
 
 namespace AccessControl.Api.Controllers;
@@ -31,3 +37,4 @@ public class AuditoriaController : ControllerBase
         return Ok(result);
     }
 }
+
