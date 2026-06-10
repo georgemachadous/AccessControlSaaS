@@ -1,0 +1,396 @@
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (104ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT EXISTS (
+          SELECT 1
+          FROM "Users" AS "u"
+          WHERE "u"."IsSuperAdmin")
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/ubuntu/AccessControlSaaS/backend/src/AccessControl.API
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 00:21:25 +00:00", the heartbeat has been running for "00:00:01.0237702" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 00:58:38 +00:00", the heartbeat has been running for "00:00:01.0751784" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 01:22:48 +00:00", the heartbeat has been running for "00:00:01.1306604" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 01:31:18 +00:00", the heartbeat has been running for "00:00:01.6554619" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 02:10:46 +00:00", the heartbeat has been running for "00:00:01.4307944" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 02:11:36 +00:00", the heartbeat has been running for "00:00:01.1676207" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 02:14:47 +00:00", the heartbeat has been running for "00:00:02.2169361" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 02:17:05 +00:00", the heartbeat has been running for "00:00:01.4930758" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 02:21:16 +00:00", the heartbeat has been running for "00:00:01.1932140" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 02:29:51 +00:00", the heartbeat has been running for "00:00:01.6819175" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 02:33:07 +00:00", the heartbeat has been running for "00:00:01.1063178" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 02:38:42 +00:00", the heartbeat has been running for "00:00:01.7832196" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 02:39:33 +00:00", the heartbeat has been running for "00:00:01.0171650" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 02:50:33 +00:00", the heartbeat has been running for "00:00:01.6106297" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 03:10:01 +00:00", the heartbeat has been running for "00:00:01.0570728" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 17:03:55 +00:00", the heartbeat has been running for "00:00:01.1859521" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 17:04:45 +00:00", the heartbeat has been running for "00:00:01.0464294" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 17:06:29 +00:00", the heartbeat has been running for "00:00:01.0364004" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 17:31:28 +00:00", the heartbeat has been running for "00:00:01.1466186" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 17:45:29 +00:00", the heartbeat has been running for "00:00:01.1722075" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 18:14:38 +00:00", the heartbeat has been running for "00:00:01.4919905" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 18:27:12 +00:00", the heartbeat has been running for "00:00:01.5404390" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 18:27:59 +00:00", the heartbeat has been running for "00:00:01.1368617" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 18:48:24 +00:00", the heartbeat has been running for "00:00:01.7148238" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 18:51:07 +00:00", the heartbeat has been running for "00:00:01.1128478" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 18:55:42 +00:00", the heartbeat has been running for "00:00:01.5670214" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 19:01:36 +00:00", the heartbeat has been running for "00:00:01.7266796" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 19:02:24 +00:00", the heartbeat has been running for "00:00:01.0910779" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 19:03:11 +00:00", the heartbeat has been running for "00:00:01.1811080" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 19:11:06 +00:00", the heartbeat has been running for "00:00:01.3335876" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 19:22:59 +00:00", the heartbeat has been running for "00:00:01.2354360" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 19:24:48 +00:00", the heartbeat has been running for "00:00:01.1537282" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 19:33:01 +00:00", the heartbeat has been running for "00:00:04.1173439" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 19:37:50 +00:00", the heartbeat has been running for "00:00:01.5966994" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 19:39:31 +00:00", the heartbeat has been running for "00:00:01.1464248" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 19:40:18 +00:00", the heartbeat has been running for "00:00:01.2564245" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 19:43:49 +00:00", the heartbeat has been running for "00:00:01.2956644" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 19:51:40 +00:00", the heartbeat has been running for "00:00:01.3373497" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 20:31:34 +00:00", the heartbeat has been running for "00:00:01.0929561" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 20:51:00 +00:00", the heartbeat has been running for "00:00:01.0176869" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 20:51:44 +00:00", the heartbeat has been running for "00:00:01.1159608" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 20:54:01 +00:00", the heartbeat has been running for "00:00:01.2769326" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 21:40:38 +00:00", the heartbeat has been running for "00:00:01.2275127" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 22:35:00 +00:00", the heartbeat has been running for "00:00:01.2066678" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 22:58:20 +00:00", the heartbeat has been running for "00:00:01.0673791" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 23:12:41 +00:00", the heartbeat has been running for "00:00:03.0091124" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 23:12:48 +00:00", the heartbeat has been running for "00:00:01.6987050" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/05/2026 23:17:40 +00:00", the heartbeat has been running for "00:00:01.6257325" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 00:02:36 +00:00", the heartbeat has been running for "00:00:01.1352846" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 01:48:59 +00:00", the heartbeat has been running for "00:00:02.5096788" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 01:51:07 +00:00", the heartbeat has been running for "00:00:01.9812771" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 01:51:25 +00:00", the heartbeat has been running for "00:00:01.0951415" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 01:51:49 +00:00", the heartbeat has been running for "00:00:04.7068580" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 01:52:54 +00:00", the heartbeat has been running for "00:00:01.5038605" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 01:53:00 +00:00", the heartbeat has been running for "00:00:01.2808627" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 01:53:22 +00:00", the heartbeat has been running for "00:00:01.1559207" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 01:53:53 +00:00", the heartbeat has been running for "00:00:01.8998735" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 01:55:38 +00:00", the heartbeat has been running for "00:00:02.6305015" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 01:56:48 +00:00", the heartbeat has been running for "00:00:36.4014968" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 01:57:46 +00:00", the heartbeat has been running for "00:00:01.1441693" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:04:27 +00:00", the heartbeat has been running for "00:00:01.1372937" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:06:54 +00:00", the heartbeat has been running for "00:00:04.2313392" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:08:08 +00:00", the heartbeat has been running for "00:00:03.0274318" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:08:40 +00:00", the heartbeat has been running for "00:00:02.0644194" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:08:57 +00:00", the heartbeat has been running for "00:00:01.0090224" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:09:25 +00:00", the heartbeat has been running for "00:00:01.1361313" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:10:22 +00:00", the heartbeat has been running for "00:00:02.5083185" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:12:14 +00:00", the heartbeat has been running for "00:00:01.2185065" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:13:50 +00:00", the heartbeat has been running for "00:00:01.9436117" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:16:08 +00:00", the heartbeat has been running for "00:00:01.5382954" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:16:19 +00:00", the heartbeat has been running for "00:00:04.5762739" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:16:46 +00:00", the heartbeat has been running for "00:00:01.5142843" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:18:13 +00:00", the heartbeat has been running for "00:00:01.4185265" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:18:24 +00:00", the heartbeat has been running for "00:00:01.1464578" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:18:30 +00:00", the heartbeat has been running for "00:00:01.3783166" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:19:40 +00:00", the heartbeat has been running for "00:00:01.0656511" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:19:52 +00:00", the heartbeat has been running for "00:00:03.3623557" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:21:28 +00:00", the heartbeat has been running for "00:00:07.0921687" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:22:44 +00:00", the heartbeat has been running for "00:00:05.8252040" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:22:58 +00:00", the heartbeat has been running for "00:00:01.1710071" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:23:17 +00:00", the heartbeat has been running for "00:00:01.7681582" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:23:46 +00:00", the heartbeat has been running for "00:00:01.7072306" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:25:05 +00:00", the heartbeat has been running for "00:00:15.0980874" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:25:26 +00:00", the heartbeat has been running for "00:00:01.6702134" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:28:02 +00:00", the heartbeat has been running for "00:00:02.5419117" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:28:34 +00:00", the heartbeat has been running for "00:00:02.3733180" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:28:53 +00:00", the heartbeat has been running for "00:00:02.2474088" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:29:29 +00:00", the heartbeat has been running for "00:00:01.3318403" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:29:57 +00:00", the heartbeat has been running for "00:00:05.5972182" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:30:17 +00:00", the heartbeat has been running for "00:00:07.7127826" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:30:28 +00:00", the heartbeat has been running for "00:00:01.6120516" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:30:44 +00:00", the heartbeat has been running for "00:00:01.1892847" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:31:10 +00:00", the heartbeat has been running for "00:00:01.5247402" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:31:20 +00:00", the heartbeat has been running for "00:00:03.6670896" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:31:39 +00:00", the heartbeat has been running for "00:00:02.6456534" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:32:21 +00:00", the heartbeat has been running for "00:00:04.7918025" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:34:22 +00:00", the heartbeat has been running for "00:00:01.5868145" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:34:41 +00:00", the heartbeat has been running for "00:00:01.1240041" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:34:51 +00:00", the heartbeat has been running for "00:00:01.4380396" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:35:07 +00:00", the heartbeat has been running for "00:00:01.7713414" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:39:29 +00:00", the heartbeat has been running for "00:00:01.2778213" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:41:13 +00:00", the heartbeat has been running for "00:00:01.6919357" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:42:27 +00:00", the heartbeat has been running for "00:00:01.8659203" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:43:10 +00:00", the heartbeat has been running for "00:00:01.2998522" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:43:24 +00:00", the heartbeat has been running for "00:00:03.0151087" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:43:46 +00:00", the heartbeat has been running for "00:00:02.5038076" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:44:01 +00:00", the heartbeat has been running for "00:00:01.1762300" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:46:12 +00:00", the heartbeat has been running for "00:00:03.1720495" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:46:54 +00:00", the heartbeat has been running for "00:00:02.0061463" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:48:01 +00:00", the heartbeat has been running for "00:00:26.6713403" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:50:35 +00:00", the heartbeat has been running for "00:00:09.0130619" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:51:38 +00:00", the heartbeat has been running for "00:00:01.6014858" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:52:46 +00:00", the heartbeat has been running for "00:00:02.0040047" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:53:22 +00:00", the heartbeat has been running for "00:00:03.6983001" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:53:43 +00:00", the heartbeat has been running for "00:00:05.0122394" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:58:03 +00:00", the heartbeat has been running for "00:00:01.3979095" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 02:58:40 +00:00", the heartbeat has been running for "00:00:01.8990219" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:01:29 +00:00", the heartbeat has been running for "00:00:05.3995781" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:04:59 +00:00", the heartbeat has been running for "00:00:08.2973744" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:10:17 +00:00", the heartbeat has been running for "00:00:09.6083154" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:12:09 +00:00", the heartbeat has been running for "00:00:07.5029293" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:13:52 +00:00", the heartbeat has been running for "00:00:08.1019333" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:20:16 +00:00", the heartbeat has been running for "00:00:07.6001018" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:22:36 +00:00", the heartbeat has been running for "00:00:02.8468324" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:27:07 +00:00", the heartbeat has been running for "00:00:06.9967991" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:32:42 +00:00", the heartbeat has been running for "00:04:10.0005452" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:34:56 +00:00", the heartbeat has been running for "00:00:09.2005479" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:38:22 +00:00", the heartbeat has been running for "00:00:07.3204409" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:39:33 +00:00", the heartbeat has been running for "00:00:04.2018237" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:41:26 +00:00", the heartbeat has been running for "00:00:04.7019499" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:42:26 +00:00", the heartbeat has been running for "00:00:08.4911162" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:44:04 +00:00", the heartbeat has been running for "00:00:04.9906975" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:48:16 +00:00", the heartbeat has been running for "00:00:02.1938735" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:49:36 +00:00", the heartbeat has been running for "00:00:04.9022427" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:52:17 +00:00", the heartbeat has been running for "00:00:08.1020855" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:54:12 +00:00", the heartbeat has been running for "00:00:08.6063889" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 03:58:31 +00:00", the heartbeat has been running for "00:00:08.2954128" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:00:00 +00:00", the heartbeat has been running for "00:00:04.5874980" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:04:35 +00:00", the heartbeat has been running for "00:00:06.7930290" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:08:49 +00:00", the heartbeat has been running for "00:00:07.7882780" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:12:32 +00:00", the heartbeat has been running for "00:00:05.0997211" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:13:54 +00:00", the heartbeat has been running for "00:00:07.1118848" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:15:19 +00:00", the heartbeat has been running for "00:00:04.1998161" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:16:57 +00:00", the heartbeat has been running for "00:00:11.5994303" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:22:39 +00:00", the heartbeat has been running for "00:00:06.9184553" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:24:58 +00:00", the heartbeat has been running for "00:00:07.1970317" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:26:09 +00:00", the heartbeat has been running for "00:00:06.7007396" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:31:18 +00:00", the heartbeat has been running for "00:01:49.4911251" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:33:25 +00:00", the heartbeat has been running for "00:00:06.5025781" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:36:25 +00:00", the heartbeat has been running for "00:00:10.0014193" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:38:15 +00:00", the heartbeat has been running for "00:00:07.1982458" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:42:17 +00:00", the heartbeat has been running for "00:00:05.2903177" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:47:52 +00:00", the heartbeat has been running for "00:00:07.4026384" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:49:48 +00:00", the heartbeat has been running for "00:00:05.5970932" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:51:28 +00:00", the heartbeat has been running for "00:00:06.3893029" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:56:13 +00:00", the heartbeat has been running for "00:00:06.2137512" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:58:40 +00:00", the heartbeat has been running for "00:00:05.8992522" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:59:21 +00:00", the heartbeat has been running for "00:00:03.5070853" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 04:59:50 +00:00", the heartbeat has been running for "00:00:06.8030001" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:01:13 +00:00", the heartbeat has been running for "00:00:01.3905677" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:03:33 +00:00", the heartbeat has been running for "00:00:02.5974629" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:05:33 +00:00", the heartbeat has been running for "00:00:04.1949171" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:06:30 +00:00", the heartbeat has been running for "00:00:02.4027906" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:08:25 +00:00", the heartbeat has been running for "00:00:01.2994534" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:09:44 +00:00", the heartbeat has been running for "00:00:03.4942751" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:11:06 +00:00", the heartbeat has been running for "00:00:02.6927149" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:12:58 +00:00", the heartbeat has been running for "00:00:03.8895134" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:14:34 +00:00", the heartbeat has been running for "00:00:01.6909083" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:16:06 +00:00", the heartbeat has been running for "00:00:01.0004110" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:18:29 +00:00", the heartbeat has been running for "00:00:02.8912194" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:20:08 +00:00", the heartbeat has been running for "00:00:28.1017812" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:22:11 +00:00", the heartbeat has been running for "00:00:01.3914118" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:24:01 +00:00", the heartbeat has been running for "00:00:01.4920684" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:25:09 +00:00", the heartbeat has been running for "00:00:01.1044943" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:25:40 +00:00", the heartbeat has been running for "00:00:04.3895574" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:26:30 +00:00", the heartbeat has been running for "00:00:02.2907007" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:27:45 +00:00", the heartbeat has been running for "00:00:02.1032545" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:28:09 +00:00", the heartbeat has been running for "00:00:01.0863493" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:31:21 +00:00", the heartbeat has been running for "00:00:03.7136604" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:33:03 +00:00", the heartbeat has been running for "00:00:01.5999901" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:34:26 +00:00", the heartbeat has been running for "00:00:02.7019852" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:35:33 +00:00", the heartbeat has been running for "00:00:03.5949634" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:36:57 +00:00", the heartbeat has been running for "00:00:08.2924733" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:38:42 +00:00", the heartbeat has been running for "00:00:01.9978299" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:39:22 +00:00", the heartbeat has been running for "00:00:02.3943752" which is longer than "00:00:01". This could be caused by thread pool starvation.
+warn: Microsoft.AspNetCore.Server.Kestrel[22]
+      As of "06/06/2026 05:41:04 +00:00", the heartbeat has been running for "00:00:01.0023015" which is longer than "00:00:01". This could be caused by thread pool starvation.
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

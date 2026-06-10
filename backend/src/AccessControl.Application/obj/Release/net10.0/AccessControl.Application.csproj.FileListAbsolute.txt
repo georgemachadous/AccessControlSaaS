@@ -1,0 +1,15 @@
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/bin/Release/net10.0/AccessControl.Application.deps.json
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/bin/Release/net10.0/AccessControl.Application.dll
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/bin/Release/net10.0/AccessControl.Application.pdb
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/bin/Release/net10.0/AccessControl.Domain.dll
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/bin/Release/net10.0/AccessControl.Domain.pdb
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/obj/Release/net10.0/AccessControl.Application.csproj.AssemblyReference.cache
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/obj/Release/net10.0/AccessControl.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/obj/Release/net10.0/AccessControl.Application.AssemblyInfoInputs.cache
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/obj/Release/net10.0/AccessControl.Application.AssemblyInfo.cs
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/obj/Release/net10.0/AccessControl.Application.csproj.CoreCompileInputs.cache
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/obj/Release/net10.0/AccessCo.A6E3319A.Up2Date
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/obj/Release/net10.0/AccessControl.Application.dll
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/obj/Release/net10.0/refint/AccessControl.Application.dll
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/obj/Release/net10.0/AccessControl.Application.pdb
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/obj/Release/net10.0/ref/AccessControl.Application.dll

@@ -1,0 +1,11 @@
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/bin/Debug/net10.0/AccessControl.Domain.deps.json
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/bin/Debug/net10.0/AccessControl.Domain.dll
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/bin/Debug/net10.0/AccessControl.Domain.pdb
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/obj/Debug/net10.0/AccessControl.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/obj/Debug/net10.0/AccessControl.Domain.AssemblyInfoInputs.cache
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/obj/Debug/net10.0/AccessControl.Domain.AssemblyInfo.cs
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/obj/Debug/net10.0/AccessControl.Domain.csproj.CoreCompileInputs.cache
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/obj/Debug/net10.0/AccessControl.Domain.dll
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/obj/Debug/net10.0/refint/AccessControl.Domain.dll
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/obj/Debug/net10.0/AccessControl.Domain.pdb
+/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/obj/Debug/net10.0/ref/AccessControl.Domain.dll
