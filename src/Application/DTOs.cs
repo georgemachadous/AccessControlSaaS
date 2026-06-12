@@ -31,7 +31,7 @@ public record CriarAplicacaoDto(string Nome, string Descricao, string Codigo, st
 public record AtualizarAplicacaoDto(Guid Id, string Nome, string Descricao, string Url, string? Icone, string? Cor, bool Ativa, bool IsPublica);
 
 // Auth DTOs
-public record LoginRequestDto(string Email, string Senha, bool? LembrarMe);
+public record LoginRequestDto(string Email, string Senha, bool? LembrarMe, string? MfaCode);
 public record LoginResponseDto(string AccessToken, string RefreshToken, DateTime ExpiresAt, string TokenType, string? MfaRequired, UsuarioDto? Usuario);
 public record RefreshTokenRequestDto(string RefreshToken);
 public record SsoLoginRequestDto(string Provider, string Code, string? State, string RedirectUri);

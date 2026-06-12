@@ -52,7 +52,9 @@ export const authApi = {
   login: (email: string, senha: string) => api.post('/auth/login', { email, senha }),
   logout: () => api.post('/auth/logout'),
   refresh: (refreshToken: string) => api.post('/auth/refresh', { refreshToken }),
-  me: () => api.get('/auth/me')
+  me: () => api.get('/auth/me'),
+  ssoExchange: (provider: string, code: string, redirectUri?: string) =>
+    api.post('/auth/sso-exchange', { provider, code, redirectUri })
 }
 
 export const empresaApi = {

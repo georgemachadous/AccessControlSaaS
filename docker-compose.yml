@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend
+    ports:
+      - 5000:80
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Data Source=/var/opt/accesscontrol/accesscontrol.db
+      - Jwt__Key=your-super-secret-key-with-at-least-32-characters-long
+    volumes:
+      - ./backend/data:/var/opt/accesscontrol
+    depends_on: []
+  frontend:
+    build: ./frontend
+    ports:
+      - 3000:80
+    depends_on:
+      - backend

@@ -30,6 +30,31 @@ export default function LoginPage() {
     }
   }
 
+  // handle code exchange when provider redirects back with ?code=...
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    const code = params.get('code')
+    const state = params.get('state')
+    const provider = params.get('provider')
+    if (code && provider) {
+      ;(async () => {
+        try {
+          setLoading(true)
+          const res = await authApi.ssoExchange(provider, code, window.location.href)
+          const { accessToken, refreshToken, usuario } = res.data
+          setAuth(accessToken, refreshToken, usuario)
+          // remove query params
+          window.history.replaceState({}, document.title, window.location.pathname)
+          navigate('/')
+        } catch (e) {
+          setError('SSO login failed')
+        } finally {
+          setLoading(false)
+        }
+      })()
+    }
+  }, [navigate, setAuth])
+
   return (
     <div className="min-h-screen bg-slate-950 flex items-center justify-center p-4">
       <div className="w-full max-w-md">

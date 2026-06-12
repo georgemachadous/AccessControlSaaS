@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AkW38tr2G+g=",
+  "dgSpecHash": "wAZ1byfqN4I=",
   "success": true,
-  "projectFilePath": "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/AccessControl.Application.csproj",
+  "projectFilePath": "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Application\\AccessControl.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

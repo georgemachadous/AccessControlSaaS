@@ -1,34 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Infrastructure/AccessControl.Infrastructure.csproj": {}
+    "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Infrastructure\\AccessControl.Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/AccessControl.Application.csproj": {
+    "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Application\\AccessControl.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/AccessControl.Application.csproj",
+        "projectUniqueName": "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Application\\AccessControl.Application.csproj",
         "projectName": "AccessControl.Application",
-        "projectPath": "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/AccessControl.Application.csproj",
-        "packagesPath": "/home/ubuntu/.nuget/packages/",
-        "outputPath": "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/obj/",
+        "projectPath": "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Application\\AccessControl.Application.csproj",
+        "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/AccessControl.Domain.csproj": {
-                "projectPath": "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/AccessControl.Domain.csproj"
+              "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Domain\\AccessControl.Domain.csproj": {
+                "projectPath": "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Domain\\AccessControl.Domain.csproj"
               }
             }
           }
@@ -43,10 +50,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -64,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.108/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -342,27 +350,34 @@
         }
       }
     },
-    "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/AccessControl.Domain.csproj": {
+    "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Domain\\AccessControl.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/AccessControl.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Domain\\AccessControl.Domain.csproj",
         "projectName": "AccessControl.Domain",
-        "projectPath": "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/AccessControl.Domain.csproj",
-        "packagesPath": "/home/ubuntu/.nuget/packages/",
-        "outputPath": "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Domain/obj/",
+        "projectPath": "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Domain\\AccessControl.Domain.csproj",
+        "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -377,10 +392,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -398,7 +414,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.108/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -676,31 +692,38 @@
         }
       }
     },
-    "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Infrastructure/AccessControl.Infrastructure.csproj": {
+    "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Infrastructure\\AccessControl.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Infrastructure/AccessControl.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Infrastructure\\AccessControl.Infrastructure.csproj",
         "projectName": "AccessControl.Infrastructure",
-        "projectPath": "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Infrastructure/AccessControl.Infrastructure.csproj",
-        "packagesPath": "/home/ubuntu/.nuget/packages/",
-        "outputPath": "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Infrastructure/obj/",
+        "projectPath": "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Infrastructure\\AccessControl.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/AccessControl.Application.csproj": {
-                "projectPath": "/home/ubuntu/AccessControlSaaS/backend/src/AccessControl.Application/AccessControl.Application.csproj"
+              "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Application\\AccessControl.Application.csproj": {
+                "projectPath": "C:\\Users\\georg\\source\\repos\\georgemachadous\\AccessControlSaaS\\backend\\src\\AccessControl.Application\\AccessControl.Application.csproj"
               }
             }
           }
@@ -715,10 +738,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "BCrypt.Net-Next": {
@@ -746,7 +770,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.108/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

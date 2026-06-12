@@ -29,7 +29,7 @@ public class AuthHandlers :
     public async Task<LoginResponseDto> Handle(LoginCommand request, CancellationToken cancellationToken)
     {
         var (accessToken, refreshToken, expiresAt) = await _authService.AuthenticateAsync(
-            request.Dto.Email, request.Dto.Senha, request.IpAddress, request.UserAgent, cancellationToken);
+            request.Dto.Email, request.Dto.Senha, request.IpAddress, request.UserAgent, request.Dto.MfaCode, cancellationToken);
 
         return new LoginResponseDto(accessToken, refreshToken, expiresAt, "Bearer", null, null);
     }

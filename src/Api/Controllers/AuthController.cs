@@ -17,12 +17,14 @@ public class AuthController : ControllerBase
 {
     private readonly IMediator _mediator;
     private readonly IAuthService _authService;
+    private readonly AccessControl.Infrastructure.Services.SsoService? _ssoService;
     private readonly ILogger<AuthController> _logger;
 
-    public AuthController(IMediator mediator, IAuthService authService, ILogger<AuthController> logger)
+    public AuthController(IMediator mediator, IAuthService authService, AccessControl.Infrastructure.Services.SsoService? ssoService, ILogger<AuthController> logger)
     {
         _mediator = mediator;
         _authService = authService;
+        _ssoService = ssoService;
         _logger = logger;
     }
 
@@ -149,6 +151,50 @@ public class AuthController : ControllerBase
         return Ok(new { message = "SSO login successful", email, name });
     }
 
+    [HttpPost("sso-exchange")]
+    [AllowAnonymous]
+    public async Task<IActionResult> SsoExchange([FromBody] SsoLoginRequestDto dto, CancellationToken ct)
+    {
+        try
+        {
+            (string accessToken, string refreshToken, DateTime expiresAt) result;
+
+            if (_ssoService is null)
+            {
+                return StatusCode(500, new { message = "SSO service is not available" });
+            }
+
+            if (string.Equals(dto.Provider, "Google", StringComparison.OrdinalIgnoreCase))
+            {
+                result = await _ssoService.HandleGoogleAsync(dto.Code, dto.RedirectUri ?? string.Empty, ct);
+            }
+            else if (string.Equals(dto.Provider, "Microsoft", StringComparison.OrdinalIgnoreCase))
+            {
+                result = await _ssoService.HandleMicrosoftAsync(dto.Code, dto.RedirectUri ?? string.Empty, ct);
+            }
+            else if (string.Equals(dto.Provider, "Github", StringComparison.OrdinalIgnoreCase) || string.Equals(dto.Provider, "GitHub", StringComparison.OrdinalIgnoreCase))
+            {
+                result = await _ssoService.HandleGithubAsync(dto.Code, dto.RedirectUri ?? string.Empty, ct);
+            }
+            else
+            {
+                return BadRequest(new { message = "Unknown SSO provider" });
+            }
+
+            var response = new LoginResponseDto(result.accessToken, result.refreshToken, result.expiresAt, "Bearer", null, null);
+            return Ok(response);
+        }
+        catch (UnauthorizedAccessException ex)
+        {
+            return Unauthorized(new { message = ex.Message });
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "SSO exchange failed");
+            return StatusCode(500, new { message = "SSO exchange error" });
+        }
+    }
+
     [HttpGet("me")]
     [Authorize]
     [ProducesResponseType(typeof(UsuarioDto), StatusCodes.Status200OK)]
@@ -167,8 +213,14 @@ public class AuthController : ControllerBase
         var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
         if (userId is null) return Unauthorized();
 
-        var result = await _authService.SetupMfaAsync(Guid.Parse(userId), ct);
-        return result ? Ok(new { message = "MFA setup initiated" }) : BadRequest(new { message = "Failed to setup MFA" });
+        var (secret, provisioningUri) = await _authService.SetupMfaAsync(Guid.Parse(userId), ct);
+        // generate QR code data URL
+        using var qrGenerator = new QRCoder.QRCodeGenerator();
+        var qrData = qrGenerator.CreateQrCode(provisioningUri, QRCoder.QRCodeGenerator.ECCLevel.Q);
+        using var qrCode = new QRCoder.PngByteQRCode(qrData);
+        var bytes = qrCode.GetGraphic(20);
+        var dataUrl = "data:image/png;base64," + System.Convert.ToBase64String(bytes);
+        return Ok(new { secret, provisioningUri, qrDataUrl = dataUrl });
     }
 
     [HttpPost("mfa/validate")]

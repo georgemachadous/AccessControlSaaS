@@ -4,6 +4,10 @@ public class Usuario : BaseEntity
 {
     public string Nome { get; set; } = string.Empty;
     public string Email { get; set; } = string.Empty;
+    // Password hash for local authentication
+    public string SenhaHash { get; set; } = string.Empty;
+    // Empresa/Tenant association (nullable for SSO-only or system users)
+    public Guid? EmpresaId { get; set; }
     public string? Telefone { get; set; }
     public string? Cpf { get; set; }
     public string Idioma { get; set; } = string.Empty;
